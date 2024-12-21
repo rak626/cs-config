@@ -1,0 +1,15 @@
+spring:
+  session:
+    store-type: none
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    healthCheckUrlPath: ${server.servlet.context-path}/health
+    metadataMap:
+      management.context-path: ${server.servlet.context-path}
+
+wp.server:
+  userid: 1wps
+  password: 1wps
