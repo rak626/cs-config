@@ -3,7 +3,7 @@ spring:
     store-type: none
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/cs_dev?currentSchema=event_schema
+    url: jdbc:postgresql://localhost:5432/cs_dev?currentSchema=booking_schema
     username: cs-user1
     password: Admin!123
   jpa:

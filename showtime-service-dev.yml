@@ -3,12 +3,12 @@ spring:
     store-type: none
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/cs_dev?currentSchema=showtime_schema
+    url: jdbc:postgresql://localhost:5432/cs_dev?currentSchema=event_schema
     username: cs-user1
     password: Admin!123
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     show-sql: true
     properties:
       hibernate:
